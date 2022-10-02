@@ -1,0 +1,80 @@
+
+.vertical_nav {
+      padding-left: 10px;
+      padding-top: 10%;
+      padding: 10% 0 10% 0.2%;
+      border-left-style: solid black;
+      
+}
+
+.logo {
+      padding-right: 10px;
+}
+
+.CustomC{
+      max-width: 90%;
+      padding: 1% 0 1% 0;
+}
+
+.ad {
+     padding-top: 25%;
+     padding-bottom: 25%;
+}
+
+.footer {
+      display: flex;
+      flex-direction: row;
+      justify-content:space-around;
+      text-decoration: none;
+}
+
+.footer_hijo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+}
+
+.selectores {
+      text-decoration: none;
+      color:blueviolet;
+}
+
+
+section {
+      background-color: gainsboro;
+}
+
+.cambiar_imagen {
+      padding-bottom: 70px;
+      padding-top: 2%;
+      text-decoration: none;
+      color: blueviolet;
+
+}
+
+.perfil {
+      border-style: solid;
+      width: 60%;
+}
+
+.logo_rs_inst 
+{
+      width: 7% ;
+}
+
+.logo_rs {
+      width: 9%;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+      .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      }
+
+}
