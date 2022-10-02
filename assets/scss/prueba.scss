@@ -1,3 +1,8 @@
+@import"colores";
+
+body {
+      background-color:$color-fondo;
+}
 
 .vertical_nav {
       padding-left: 10px;
@@ -37,25 +42,24 @@
 
 .selectores {
       text-decoration: none;
-      color:blueviolet;
+      color: $color-primario;
 }
 
 
-section {
-      background-color: gainsboro;
-}
+
 
 .cambiar_imagen {
       padding-bottom: 70px;
       padding-top: 2%;
       text-decoration: none;
-      color: blueviolet;
+      color: $color-primario;
 
 }
 
 .perfil {
       border-style: solid;
       width: 60%;
+      
 }
 
 .logo_rs_inst 
@@ -65,6 +69,18 @@ section {
 
 .logo_rs {
       width: 9%;
+}
+
+.micuenta-button {
+      background-color: $color-primario;
+      font-weight:bold;
+      border-radius: 50px;
+      margin: 30px;
+
+      &:hover {
+            background-color: aqua;
+      }
+
 }
 
 
@@ -78,3 +94,4 @@ section {
       }
 
 }
+

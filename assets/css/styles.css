@@ -1,3 +1,6 @@
+body {
+  background-color: #76C7F3; }
+
 .vertical_nav {
   padding-left: 10px;
   padding-top: 10%;
@@ -30,9 +33,6 @@
   text-decoration: none;
   color: blueviolet; }
 
-section {
-  background-color: gainsboro; }
-
 .cambiar_imagen {
   padding-bottom: 70px;
   padding-top: 2%;
@@ -48,6 +48,14 @@ section {
 
 .logo_rs {
   width: 9%; }
+
+.micuenta-button {
+  background-color: blueviolet;
+  font-weight: bold;
+  border-radius: 50px;
+  margin: 30px; }
+  .micuenta-button:hover {
+    background-color: aqua; }
 
 @media screen and (max-width: 767px) {
   .footer {
